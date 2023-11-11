@@ -1,0 +1,64 @@
+
+
+.nomeformulario {
+    text-align: center;
+    background-color: rgb(44, 221, 239);
+    border: 10px solid none;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.formulario{
+    font-family: Arial, sans-serif;
+    border: 10px solid none;
+    padding: 20px; 
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 450px;
+    background: linear-gradient(110.9deg, rgb(44, 221, 239) 1.1%, rgb(14, 191, 210) 37.6%, rgb(8, 127, 140) 99.2%);
+    border-radius: 20px;
+}
+
+.campoAa {
+    margin-left: 80px;
+}
+
+.campoBb {
+    margin-left: 80px;
+}
+
+.botao {
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color:rgb(14, 191, 210)
+}
+
+body {
+    background-image: url(/imagens/Abstrato.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mensagem-validacao {
+    font-size: 14px;
+    margin-top: 10px;
+    display: none; /* Inicialmente oculto */
+    text-align: center;
+}
+
+.mensagem-validacao.positiva {
+    color: green;
+    font-weight: bold;
+}
+
+.mensagem-validacao.negativa {
+    color: red;
+    font-weight: bold;
+}
